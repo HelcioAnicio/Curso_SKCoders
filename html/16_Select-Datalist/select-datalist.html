@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Select e Datalist</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Formulário de cadastro</legend>
+            <label for="pets-select">Qual animal de cada grupo, você gostaria de ter?</label> <br>
+            <select name="pets" id="pets-select" multiple>
+                <optgroup label="Pet domestico">
+                    <option value="" disabled selected>Selecione o/os animais</option>
+                    <option value="cachorro">Cachorro</option>
+                    <option value="gato">Gato</option>
+                    <option value="papagaio">Papagaio</option>
+                    <option value="piriquito">Piriquito</option>
+                </optgroup>
+                <optgroup label="Animais selvagens">
+                    <option value="cachorro">Leão</option>
+                    <option value="gato">Tigre</option>
+                    <option value="papagaio">Cobra</option>
+                    <option value="piriquito">Urso</option>
+                </optgroup>
+            </select>
+            <br><br>
+
+            <label for="text">Escreva sua fruta favorita:</label>
+            <input type="color" name="frutas" id="frutas" list="lista-frutas">
+            <datalist id="lista-frutas">
+                <option value="#800000"></option>
+            </datalist>
+        </fieldset>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form projeto</title>
+</head>
+
+<body>
+    <form action="" method="">
+        <fieldset>
+            <h1>Payment form</h1>
+            <p>Required fields are followed by *.</p>
+
+            <section>
+                <h3>Contact information</h3>
+                <fieldset>
+                    <legend>Title</legend>
+                    <div>
+                        <input type="radio" name="Kingdom" id="ace" value="ace">
+                        <label for="ace">Ace</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="Kingdom" id="king" value="king">
+                        <label for="king">King</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="Kingdom" id="queen" value="queen">
+                        <label for="queen">Queen</label>
+                    </div>
+                </fieldset>
+                <br>
+                <div>
+                    <div>
+                        <label for="nameComplete">Name: <span>*</span></label><br>
+                        <input type="text" name="name" id="nameComplete" placeholder="Helcio Anicio" size="30">
+                    </div><br>
+                    <div>
+                        <label for="email">Email <span>*</span></label><br>
+                        <input type="email" id="email" name="email" placeholder="email@email.com" size="30">
+                    </div><br>
+                    <div>
+                        <label for="password">Password: <span>*</span></label><br>
+                        <input type="password" id="password" name="password" minlength="8" maxlength="20" size="20"
+                            placeholder="Your password">
+                    </div>
+                </div>
+            </section>
+            <br>
+            <section>
+                <h3>Payment information</h3>
+                <div>
+                    <label for="Cards">Card type:</label>
+                    <select name="Card" id="Cards">
+                        <option value="Visa">Visa</option>
+                        <option value="MasterCard">MasterCard</option>
+                        <option value="AmericanExpress">AmericanExpress</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label for="numberCard">Card Number: <span>*</span></label><br>
+                    <input type="number" name="number" id="numberCard">
+                </div><br>
+                <div>
+                    <label for="dateCard">Expiration date: <span>*</span></label><br>
+                    <input type="month" name="dateOfCard" id="dateCard">
+                </div>
+            </section><br><br>
+
+            <input type="submit" value="Validate the Payment">
+        </fieldset>
+    </form>
+</body>
+
+</html>

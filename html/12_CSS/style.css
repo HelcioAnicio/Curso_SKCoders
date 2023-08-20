@@ -1,0 +1,16 @@
+footer {
+    background-color: yellow;
+}
+
+a {
+    display: block;
+}
+
+.header {
+    background-color: red;
+    color: white;
+}
+
+#main {
+    background-color: lightgreen;
+}
