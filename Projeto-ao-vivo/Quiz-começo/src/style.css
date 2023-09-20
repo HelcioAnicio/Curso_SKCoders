@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    /* Degradê de fundo do site  
+    background-image: linear-gradient(); */
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    margin: 0 auto; /* Margens automáticas horizontalmente */
+    width: 50%; /* Largura desejada da ul */
+    list-style: none;
+}
+
+li {
+    background-color: rgba(255, 255, 255, 0.281);
+    text-align: center;
+    line-height: 30px; /* Espaçamento dos textos */
+    border: 1px solid black;
+    border-radius: 10px 3px 10px;
+    box-shadow: 1px 5px 10px #00000094;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    padding: 7px;
+}
+
+li > p {
+    font-weight: bold;
+}
+
+input {
+    cursor: pointer;
+    width: 20px;
+    margin-right: 10px;
+}
