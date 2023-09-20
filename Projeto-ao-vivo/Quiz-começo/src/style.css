@@ -3,9 +3,18 @@
     margin: 0px;
 }
 
+:root {
+    --color1: #99cccc ;
+    --color2: #a8bdc2 ;
+    --color3: #b8aeb8 ;
+    --color4: #c79ead ;
+    --color5: #d78fa3 ;
+}
+  
+
 body {
-    /* Degradê de fundo do site  
-    background-image: linear-gradient(); */
+    /* Degradê de fundo do site */
+    background-image: linear-gradient(to bottom, var(--color5), var(--color4), var(--color3), var(--color2));
 }
 
 h1 {
@@ -14,12 +23,12 @@ h1 {
 
 ul {
     margin: 0 auto; /* Margens automáticas horizontalmente */
-    width: 50%; /* Largura desejada da ul */
+    width: 400px; /* Largura desejada da ul */
     list-style: none;
 }
 
 li {
-    background-color: rgba(255, 255, 255, 0.281);
+    background-color: rgba(255, 255, 255, 0.336);
     text-align: center;
     line-height: 30px; /* Espaçamento dos textos */
     border: 1px solid black;
@@ -30,12 +39,39 @@ li {
     padding: 7px;
 }
 
+/* Estilo para quando o radio button estiver selecionado */
+li input:checked + label {
+    background-color: var(--color2);
+}
+
+li input {
+    display: none; /* Oculta o input de radio padrão */
+}
+
 li > p {
     font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.445);
 }
 
 input {
     cursor: pointer;
     width: 20px;
     margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
+
+label {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.822);
+    width: 100%;
+}
+
