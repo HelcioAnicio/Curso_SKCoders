@@ -1,20 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* Configurações gerais do CSS */
 * {
     padding: 0px;
     margin: 0px;
 }
 
 :root {
-    --color1: #99cccc ;
-    --color2: #a8bdc2 ;
-    --color3: #b8aeb8 ;
-    --color4: #c79ead ;
-    --color5: #d78fa3 ;
+    --color1: #99cccc;
+    --color2: #a8bdc2;
+    --color3: #b8aeb8;
+    --color4: #c79ead;
+    --color5: #d78fa3;
+    --font1: 'Quicksand', sans-serif;
 }
   
 
 body {
     /* Degradê de fundo do site */
-    background-image: linear-gradient(to bottom, var(--color5), var(--color4), var(--color3), var(--color2));
+    background-image: linear-gradient(45deg, var(--color5), var(--color4), var(--color3), var(--color2), var(--color1));
+    font-family: var(--font1);
 }
 
 h1 {
@@ -23,17 +28,17 @@ h1 {
 
 ul {
     margin: 0 auto; /* Margens automáticas horizontalmente */
-    width: 400px; /* Largura desejada da ul */
-    list-style: none;
+    width: 400px; /* Largura da ul */
+    list-style: none; /* Ocutar o rádio */
 }
 
 li {
     background-color: rgba(255, 255, 255, 0.336);
     text-align: center;
     line-height: 30px; /* Espaçamento dos textos */
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.445);
     border-radius: 10px 3px 10px;
-    box-shadow: 1px 5px 10px #00000094;
+    box-shadow: 1px 5px 10px #00000094; 
     margin-bottom: 10px;
     margin-top: 15px;
     padding: 7px;
@@ -41,7 +46,9 @@ li {
 
 /* Estilo para quando o radio button estiver selecionado */
 li input:checked + label {
-    background-color: var(--color2);
+    background-color: rgba(0, 0, 0, 0.822);
+    color: white;
+    transition: 0.5s;
 }
 
 li input {
@@ -52,7 +59,7 @@ li > p {
     font-weight: bold;
     margin-bottom: 10px;
     padding-bottom: 10px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.445);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.226);
 }
 
 input {
@@ -64,14 +71,16 @@ input {
 }
 
 label {
-    display: block;
+    display: block; /* Label ocupa todo espaço que tiver disponível do site */
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    width: 94%; /* Largura da label de acordo com a tela */
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    border: 1px solid black;
-    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.308);
+    border-radius: 6px;
+    box-shadow: -1px 4px 7px #00000042;
     background-color: rgba(255, 255, 255, 0.822);
-    width: 100%;
 }
 
