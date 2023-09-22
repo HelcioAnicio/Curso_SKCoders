@@ -18,6 +18,8 @@ verificarResposta = {
       console.log(check.checked);
       if (check.id === verificarResposta[check.name]) {
         check.nextSibling.style.backgroundColor = "green";
+        check.nextSibling.style.color = "white";
+
       } else {
         check.nextSibling.style.backgroundColor = "red";
         setTimeout(() => {
