@@ -1,0 +1,25 @@
+/* Seletor Universal */
+* {
+    background-color: rgb(170, 214, 199);
+}
+
+/* Descendente */
+body header p{
+    color: yellow;
+}
+
+/* Filho */
+div > h2 {
+    color: brown;
+}
+
+/* Irmão adjacente */
+h2 + p {
+    color: red;
+}
+
+/* Irmão geral */
+header ~ #irmao-geral {
+    background-color: aqua;
+}
+

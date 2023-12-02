@@ -1,0 +1,23 @@
+/* Seletor de Elemento/Tag */
+h1 {
+    color: white;
+    background-color: green;
+}
+
+/* Seletor de id */
+#titulo1 {
+    color: yellow;
+    background-color: aqua;
+}
+
+/* Seletor de Elemento/Tag */
+p {
+    color: white;
+    background-color: green;
+}
+
+/* Seletor de classe */
+.paragrafo {
+    color: blue;
+    background-color: red;
+}
