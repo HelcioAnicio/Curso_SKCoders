@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propriedades de Texto</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .header{
+            color: blue;
+        }
+
+        .paragrafo1, .paragrafo2 {
+            color: white;
+            background-color: gray;
+            text-align: center;
+            line-height: 50px;
+            width: 80%;
+            margin-top: 50px;
+            text-decoration: underline black;
+            text-transform: uppercase;
+        }
+
+        .paragrafo2, #titulo2, p{
+            color: black;
+        }
+
+        #titulo ~ .paragrafo2 {
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1 id="titulo">Titulo</h1>
+        <p class="paragrafo1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, nam! Quidem accusantium ullam voluptas, eveniet dolore cum nam non, natus dolor quo praesentium necessitatibus doloremque. Nobis cupiditate minus repellendus est!</p>
+        <p class="paragrafo2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero quis quos quibusdam delectus. Veritatis praesentium consequuntur distinctio nam, labore explicabo. Dolorum illum eum distinctio animi, quasi tempore neque doloremque eaque.</p>
+    </header>
+    <main class="main">
+        <h2 id="titulo2">Titulo 2</h2>
+        <p class="paragrafo1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, nam! Quidem accusantium ullam voluptas, eveniet dolore cum nam non, natus dolor quo praesentium necessitatibus doloremque. Nobis cupiditate minus repellendus est!</p>
+        <p class="paragrafo2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero quis quos quibusdam delectus. Veritatis praesentium consequuntur distinctio nam, labore explicabo. Dolorum illum eum distinctio animi, quasi tempore neque doloremque eaque.</p>
+    </main>
+</body>
+</html>
