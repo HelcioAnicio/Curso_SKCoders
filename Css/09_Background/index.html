@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backgrounds</title>
+    <style>
+        /* body {
+            background-color: lightblue;
+        }
+
+        div {
+            background-color: rgba(255, 166, 0, .8);
+            opacity: 0.3;
+        }
+        
+        p {
+            background-color: rgba(255, 255, 0, .5);
+        } */
+
+
+        body {
+            height: 1500px;
+            /* background-image: url("data:image/jpeg;base64,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");
+            background-repeat: no-repeat;
+            background-position: top;
+            background-attachment: scroll;
+            background-size: contain; */
+
+            background: orange url("data:image/jpeg;base64,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") no-repeat center;
+            background-size: contain;
+        }    
+    </style>
+</head>
+<body>
+
+<h1>Hello World!</h1>
+
+<div> 
+    This is a text inside a div element.
+    <p>This paragraph has its own background color.</p>
+    We are still in the div element.
+</div>
+
+
+
+</body>
+</html>
