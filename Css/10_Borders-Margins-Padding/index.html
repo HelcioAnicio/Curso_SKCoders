@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borders - Margins - Padding</title>
+    <style>
+        p#dotted {border-style: dotted;}
+        p#dashed {border-style: dashed;}
+        p#solid {border-style: solid;}
+        p#double {border-style: double;}
+        p#groove {border-style: groove;}
+        p#ridge {border-style: ridge;}
+        p#inset {border-style: inset;}
+        p#outset {border-style: outset;}
+        p#none {border-style: none;}
+        p#hidden {border-style: hidden;}
+        p#mix {border-style: dotted dashed solid double;}
+        p#mix {
+            border-style: dashed groove solid none;
+        }
+
+
+        p#one {
+            border-style: solid;
+            border-width: 5px 20px; /* 5px top and bottom, 20px on the sides */
+        }
+
+        p#two {
+            border-style: solid;
+            border-width: 20px 5px; /* 20px top and bottom, 5px on the sides */
+        }
+
+        p#three {
+        border-style: solid;
+        border-width: 25px 10px 4px 35px; /* 25px top, 10px right, 4px bottom and 35px left */
+        }
+
+
+        p#four {
+            border-style: solid;
+            border-color: red;
+        }
+
+        p#five {
+            border-style: solid;
+            border-color: green;
+        } 
+
+        p#six {
+            border: 5px solid red;
+            border-radius: 5px 20px 50px;
+        } 
+    </style>
+</head>
+<body>
+
+    <!-- <div>        
+        <p id="dotted">A dotted border.</p>
+        <p id="dashed">A dashed border.</p>
+        <p id="solid">A solid border.</p>
+        <p id="double">A double border.</p>
+        <p id="groove">A groove border.</p>
+        <p id="ridge">A ridge border.</p>
+        <p id="inset">An inset border.</p>
+        <p id="outset">An outset border.</p>
+        <p id="none">No border.</p>
+        <p id="hidden">A hidden border.</p>
+        <p id="mix">A mixed border.</p>
+    </div> -->
+    
+    <div>
+        <p id="one">Some text.</p>
+        <p id="two">Some text.</p>
+        <p id="three">Some text.</p>
+    </div>
+
+
+    <div>
+        <p id="four">A solid red border</p>
+        <p id="five">A solid green border</p>
+        <p id="six">A dotted blue border</p>
+    </div>
+</body>
+</html>
