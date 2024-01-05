@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  /* margin: auto; */
+  width: 300px;
+  /* height: 100px; */
+  /* border: 10px solid black; */
+  margin: 10px;
+  background-color: lightblue;
+  /* padding-top: 40px; */
+  padding-right: 30px;
+  /* padding-bottom: 50px; */
+  padding-left: 30px;
+}
+
+div {
+  border: 1px solid black;
+  /* margin-top: 30px;
+  margin-bottom: 100px;
+  margin-right: 15px;
+  margin-left: 80px; */
+  margin: 10px 55px 50px;
+  background-color: lightblue;
+}
+
+/*  */
+p#dotted {
+  border-style: dotted;
+}
+p#dashed {
+  border-style: dashed;
+}
+p#solid {
+  border-style: solid;
+}
+p#double {
+  border-style: double;
+}
+p#groove {
+  border-style: groove;
+}
+p#ridge {
+  border-style: ridge;
+}
+p#inset {
+  border-style: inset;
+}
+p#outset {
+  border-style: outset;
+}
+p#none {
+  border-style: none;
+}
+p#hidden {
+  border-style: hidden;
+}
+p#mix {
+  border-style: dotted dashed solid double;
+}
+p#mix {
+  border-style: dashed groove solid none;
+}
+
+p#one {
+  border-style: solid;
+  border-width: 5px 20px; /* 5px top and bottom, 20px on the sides */
+}
+
+p#two {
+  border-style: solid;
+  border-width: 20px 5px; /* 20px top and bottom, 5px on the sides */
+}
+
+p#three {
+  border-style: solid;
+  border-width: 25px 10px 4px 35px; /* 25px top, 10px right, 4px bottom and 35px left */
+}
+
+p#four {
+  border-style: solid;
+  border-color: red;
+}
+
+p#five {
+  border-style: solid;
+  border-color: green;
+}
+
+p#six {
+  border: 5px solid red;
+  border-radius: 5px 20px 50px;
+}
