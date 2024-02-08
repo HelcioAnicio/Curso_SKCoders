@@ -1,0 +1,15 @@
+p {
+  border: 20px solid black;
+  outline: #4caf50 solid 10px;
+  outline-offset: 5px;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+p {
+  margin: 30px;
+  border: 1px solid black;
+  outline: 1px solid red;
+  /* outline-offset: 15px; */
+}

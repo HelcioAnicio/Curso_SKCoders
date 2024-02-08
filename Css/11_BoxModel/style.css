@@ -2,11 +2,11 @@ div {
   background-color: lightgrey;
   width: 300px;
   height: 200px;
-  overflow: hidden;
   border: 15px solid green;
-  padding: 50px;
+  padding: 40px;
   margin: 20px;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 div:hover {
