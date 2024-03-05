@@ -1,0 +1,59 @@
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+p.normal {
+  font-style: normal;
+}
+
+p.italic {
+  font-style: italic;
+}
+
+p.oblique {
+  font-style: oblique;
+}
+
+p.normal {
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p.light {
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p.thick {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p.thicker {
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1.a {
+  /* font-family: "Audiowide", sans-serif; */
+  /* font-size: 30px; */
+  /* font-weight: 900; */
+  /* font-style: italic; */
+  font: italic bold 40px "Audiowide", sans-serif;
+}
+
+h1.b {
+  font-family: "Poppins", sans-serif;
+}
+
+h1.c {
+  font-family: "Poppins", serif;
+}
