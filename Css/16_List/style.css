@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  background-color: gray;
+  color: white;
+  margin-top: 10px;
+}
+
+div ul li {
+  list-style-type: circle;
+  list-style-position: outside;
+}
+
+ul {
+  padding: 5px;
+}
+
+ul li {
+  list-style-type: circle;
+  list-style-position: inside;
+  /* list-style-image: url(../12.1_Projeto-pratico/assets/avatar-jessica.jpeg); */
+  list-style: decimal-leading-zero outside;
+  background-color: chartreuse;
+  margin: 10px 30px;
+  width: 100px;
+}
+
+ul li:nth-child(even) {
+  background-color: red;
+}
