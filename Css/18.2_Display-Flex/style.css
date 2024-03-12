@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  margin-left: 30px;
+}
+
+.flex-container {
+  display: flex;
+  background-color: aquamarine;
+  height: 300px;
+}
+
+.flex-container div {
+  /* width: 100px; */
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 10px;
+  font-size: 30px;
+  background-color: white;
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
+  /* flex-basis: 100px; */
+  flex: 1 1 200px;
+}
+
+/* #div1 {
+  order: 3;
+} */
+
+#div3 {
+  /* flex-grow: 4; */
+  /* flex-shrink: 2; */
+  /* flex-basis: 50px; */
+  /* max-width: 400px; */
+  align-self: flex-end;
+
+}
