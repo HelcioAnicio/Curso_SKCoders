@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  /* height: 200px; */
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left,
+.flex-item-right {
+  flex: 25%;
+  padding: 10px;
+  /* line-height: 100px; */
+}
+
+.flex-item-left {
+  background-color: lightgray;
+}
+
+.flex-item-right {
+  background-color: lightskyblue;
+}
+
+
+@media (min-width: 600px) {
+  .flex-container {
+    flex-direction: row;
+  }
+}
